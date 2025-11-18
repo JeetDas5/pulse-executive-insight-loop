@@ -8,6 +8,7 @@ export default function RecommendationCard({
   text: string;
   onAccept: (id: string) => void;
   onSkip?: (id: string) => void;
+  action?: string;
 }) {
   return (
     <div className="p-4 bg-white border rounded-lg shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">

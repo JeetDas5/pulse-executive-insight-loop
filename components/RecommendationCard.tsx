@@ -16,13 +16,13 @@ export default function RecommendationCard({
       <div className="flex gap-2">
         <button
           onClick={() => onSkip?.(id)}
-          className="px-3 py-2 rounded border text-sm"
+          className="px-3 py-2 rounded border text-sm hover:bg-gray-200/80 cursor-pointer"
         >
           Skip
         </button>
         <button
           onClick={() => onAccept(id)}
-          className="px-4 py-2 rounded bg-pulseGreen text-white text-sm"
+          className="px-4 py-2 rounded bg-pulseGreen hover:bg-pulseGreen/80 text-white text-sm cursor-pointer"
         >
           Accept
         </button>

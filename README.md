@@ -104,13 +104,13 @@ This provides a realistic feel of how the feature would integrate into Pulse.
 Install dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 Run the dev server:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 Visit the dashboard:

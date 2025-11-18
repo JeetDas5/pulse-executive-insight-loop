@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Topbar() {
   return (
     <header className="bg-white border-b">
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-pulseGreen/90 to-pulseGreen/60 flex items-center justify-center text-white font-bold">
+          <div className="w-10 h-10 rounded-lg bg-linear-to-br from-pulseGreen/90 to-pulseGreen/60 flex items-center justify-center text-white font-bold">
             P
           </div>
           <div>
@@ -14,13 +14,10 @@ export default function Topbar() {
           </div>
         </div>
         <nav className="flex items-center gap-4">
-          <Link href="/" className="text-sm text-gray-700 hover:text-gray-900">
+          <Link href="/" className="text-sm  hover:text-gray-500">
             Home
           </Link>
-          <Link
-            href="/insights"
-            className="text-sm text-gray-700 hover:text-gray-900"
-          >
+          <Link href="/insights" className="text-sm hover:text-gray-500">
             Insights
           </Link>
         </nav>

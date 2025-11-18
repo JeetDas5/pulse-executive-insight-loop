@@ -47,7 +47,7 @@ export default function InsightsPage() {
   if (!metrics) return <div className="p-8">Loading…</div>;
 
   return (
-    <div className="max-w-3xl mx-auto p-8">
+    <div className="max-w-3xl mx-auto p-8 py-0">
       <h1 className="text-2xl font-bold mb-6">Executive Insight Brief</h1>
       <MetricsSummary
         meetingMinutesLastWeek={metrics.meetingMinutesLastWeek}

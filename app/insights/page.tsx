@@ -44,7 +44,9 @@ export default function InsightsPage() {
     });
   };
 
-  if (!metrics) return <div className="p-8">Loading…</div>;
+  if (!metrics) return <div className="p-8 text-center mx-auto">
+    <p className="mt-4">Loading insights...</p>
+  </div>;
 
   return (
     <div className="max-w-3xl mx-auto p-8 py-0">

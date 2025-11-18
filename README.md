@@ -180,11 +180,11 @@ Two focus blocks next week
 A recurring weekly note-review block
 Sarah ends the week feeling more in control.
 
-One Month Later
+One Month Later:
 
-Pulse sends another insight brief:
-Meeting load down 15%
-Backlog shrunk from 18 → 12
+Pulse sends another insight brief:  
+Meeting load down 15%  
+Backlog shrunk from 18 → 12  
 Notes now 6–8 per week
 
 Pulse highlights the improvement and adjusts suggestions accordingly.
